@@ -18,7 +18,8 @@
 }
 .banner-container{
   height: 100vh;
-  background-image: url('./asset/image/background.jpg');
+  background-image: url('./asset/image/background.jpg'),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+  background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -44,4 +45,68 @@
   padding: 10px;
   border: none;
   border-radius: 5px;
+}
+.service-container{
+  height: 100vh;
+  background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  color: white;
+  padding: 30px;
+
+}
+.logo{
+  width: 70px;
+  
+}
+.box{
+  text-align: center;
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  padding: 50px;
+  border-radius: 5px;
+
+}
+.service-description{
+  width: 50%;
+}
+.first-two-box{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+.second-two-box{
+  display: flex;
+  gap: 5px;
+}
+.author-img{
+  width: 70px;
+  border-radius: 50px;
+}
+.author-container{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.author-profile{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+ol{
+  padding: 10px;
+}
+.btn-primary{
+  background-color: crimson;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
